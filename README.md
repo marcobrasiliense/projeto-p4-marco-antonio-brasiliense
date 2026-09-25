@@ -5,6 +5,7 @@ Projeto semestral da disciplina Paradigmas de Programação, com o objetivo de e
 ## Progresso do Projeto
 * [x] **[P4-ETAPA-01]** Proposta e Especificação do Problema
 * [x] **[P4-ETAPA-02]** Contrato semântico e testes `testes/casos.md`
+* [ ] **[P4-ETAPA-03]** Implementação imperativa `imperativo/`
 
 ---
 
@@ -92,7 +93,7 @@ Considere a malha viária base composta pelas conexões:
 * **Lógico:** O mapa viário é modelado como uma base declarativa de fatos lógicos (`via/4`). A identificação de rotas e a validação das restrições são resolvidas pelo motor de unificação e retrocesso (*backtracking*) do paradigma lógico, acumulando distâncias e custos em predicados recursivos.
 
 ## 11. Linguagens inicialmente consideradas
-* **Imperativo — C:** Controle direto de estruturas de memória, vetores de adjacência e iterações explícitas sem abstrações de objetos.
+* **Imperativo — Python:** Utilização estrita do subconjunto procedural e imperativo da linguagem, operando diretamente sobre estruturas de dados mutáveis (listas e dicionários de adjacência), controle explícito de fluxo com laços de repetição, mutação de variáveis de estado e decomposição em subprogramas (funções), sem o uso de classes ou abstrações orientadas a objetos.
 * **Orientado a Objetos — Python:** Abstração clara de entidades por meio de classes, construtores, métodos de instância e encapsulamento.
 * **Funcional — Haskell:** Sistema puramente funcional com imutabilidade estrita, tipagem estática e casamento de padrões (*pattern matching*), ideais para travessia recursiva de listas.
 * **Lógico — Prolog (SWI-Prolog):** Paradigma puramente declarativo cuja unificação e busca em profundidade nativas resolvem problemas de caminhos e restrições de forma concisa.
