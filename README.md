@@ -5,7 +5,7 @@ Projeto semestral da disciplina Paradigmas de Programação, com o objetivo de e
 ## Progresso do Projeto
 * [x] **[P4-ETAPA-01]** Proposta e Especificação do Problema
 * [x] **[P4-ETAPA-02]** Contrato semântico e testes `testes/casos.md`
-* [ ] **[P4-ETAPA-03]** Implementação imperativa `imperativo/`
+* [x] **[P4-ETAPA-03]** Implementação imperativa `imperativo/`
 
 ---
 
